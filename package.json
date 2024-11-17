@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "latest",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "slidev-theme-the-unnamed": "^0.0.22",
+    "slidev-theme-vuetiful": "^0.3.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-slidev": "^1.0.5"
+  }
+}

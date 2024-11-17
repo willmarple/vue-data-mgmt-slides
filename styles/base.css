@@ -1,0 +1,62 @@
+/* Reset all built-in layout backgrounds */
+.slidev-layout.default,
+.slidev-layout.cover,
+.slidev-layout.intro,
+.slidev-layout.center,
+.slidev-layout.fact,
+.slidev-layout.quote,
+.slidev-layout.section,
+.slidev-layout.statement,
+.slidev-layout.image-right,
+.slidev-layout.image-left,
+.slidev-layout.two-cols,
+.slidev-layout.end {
+  background: none;  /* Clear any existing backgrounds */
+}
+
+/* Apply your background globally */
+.slidev-layout {
+  background-image: url('/images/1.5.svg') !important;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.gradient-title {
+  background: linear-gradient(to left, #3ecc8b, #5581e8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+}
+
+.slidev-layout h1 {
+  font-size: 3.5em;
+  font-weight: 700;
+  line-height: 1.2 !important;
+  margin-bottom: 0.5em;
+}
+
+.slidev-layout h2 {
+  font-size: 2.5em;
+  font-weight: 600;
+  line-height: 1.3 !important;
+  margin-bottom: 0.5em;
+}
+
+.slidev-layout h3 {
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 1.4 !important;
+  margin-bottom: 0.5em;
+}
+
+.slidev-layout h4 {
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.5 !important;
+  margin-bottom: 0.5em;
+}
+
+.text-gray-600 {
+  color: rgba(255, 255, 255, 0.7);
+}
